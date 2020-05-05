@@ -74,6 +74,11 @@ class Timer extends React.Component {
   }
 
   countdown = () => {
+    if (this.state.profiles.length === 0) {
+      alert(
+        'To get started Create a Timing Profile and then Load it using the Button at the Top',
+      );
+    }
     this.setState({isRunning: true});
     this.interval = BackgroundTimer.setInterval(this.timeCheck, 1000);
   };
@@ -92,6 +97,11 @@ class Timer extends React.Component {
   };
 
   reset = () => {
+    if (this.state.profiles.length === 0) {
+      alert(
+        'To get started Create a Timing Profile and then Load it using the Button at the Top',
+      );
+    }
     if (this.state.activeProfile === '') {
     } else {
       this.setState(prevState => ({

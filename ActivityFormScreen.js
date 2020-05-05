@@ -14,7 +14,7 @@ export default function ActivityFormScreen({navigation, route}) {
   const [hour, setHour] = React.useState(0);
   const [minute, setMinute] = React.useState(0);
   const [sec, setSec] = React.useState(0);
-  const [repeat, setRepeat] = React.useState(0);
+  const [repeat, setRepeat] = React.useState(1);
   const [breakHr, setBreakHr] = React.useState(0);
   const [breakMin, setBreakMin] = React.useState(0);
   const [breakSec, setBreakSec] = React.useState(0);
