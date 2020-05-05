@@ -16,9 +16,11 @@
     "expo-linear-gradient": "^8.1.0",
     "react": "16.11.0",
     "react-native": "0.62.2",
+    "react-native-background-timer": "^2.2.0",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-really-awesome-button": "^1.6.0",
-    "react-native-screens": "^2.7.0"
+    "react-native-screens": "^2.7.0",
+    "react-native-sound": "^0.11.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
