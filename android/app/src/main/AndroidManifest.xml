@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.ttimer">
+  package="com.immortalmoosedev.ttimer">
 
     <uses-permission android:name="android.permission.VIBRATE" />
 

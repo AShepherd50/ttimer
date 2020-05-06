@@ -1,4 +1,4 @@
-package com.ttimer;
+package com.immortalmoosedev.ttimer;
 
 import com.facebook.react.ReactActivity;
 
